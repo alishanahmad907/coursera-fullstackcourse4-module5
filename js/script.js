@@ -1,5 +1,5 @@
-$(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
+$(function () { // Same as document.addEventListener("DOMContentLoaded"...
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
@@ -9,11 +9,11 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 });
 
-(function (global) {
+(function (global)  {
 
-var dc = {};
-
-var homeHtmlUrl = "snippets/home-snippet.html";
+  
+  var dc = {};
+  var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
   "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
